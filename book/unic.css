@@ -42,3 +42,8 @@ body .book .book-body{
 .unic-logo img {
     width: 100%;
 }
+
+.book-body > .chapterlogo {
+    float:right;
+    padding-left: 20px;
+}
