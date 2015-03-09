@@ -7,11 +7,7 @@
 }
 
 .book .book-summary ul.summary li > a {
-    color: #333;
-    display: block;
     font-size: 1.167em;
-    margin-bottom: 0.4em;
-    text-decoration: none;
     font-family: Georgia;
 }
 
@@ -46,4 +42,12 @@ body .book .book-body{
 .book-body .chapterlogo {
     float:right;
     padding-left: 20px;
+}
+
+.summary > .chapter > .articles {
+    display: none;
+}
+
+.summary > .chapter.active > .articles, .summary > .chapter.unic-active > .articles {
+    display: block;
 }
