@@ -6,11 +6,6 @@
     color: #28aaff;
 }
 
-.book .book-summary ul.summary li > a {
-    font-size: 1.167em;
-    font-family: Georgia;
-}
-
 .book .book-summary {
     background-color: white;
 }
@@ -19,11 +14,6 @@
     font-family: Georgia,serif;
     font-weight: normal;
     border-bottom: none;
-}
-
-body .book .book-body{
-    font-family: Arial,sans-serif;
-    line-height: 1.38;
 }
 
 .unic-logo {
