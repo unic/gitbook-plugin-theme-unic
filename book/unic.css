@@ -6,15 +6,6 @@
     color: #28aaff;
 }
 
-.book .book-summary ul.summary li > a {
-    color: #333;
-    display: block;
-    font-size: 1.167em;
-    margin-bottom: 0.4em;
-    text-decoration: none;
-    font-family: Georgia;
-}
-
 .book .book-summary {
     background-color: white;
 }
@@ -23,11 +14,6 @@
     font-family: Georgia,serif;
     font-weight: normal;
     border-bottom: none;
-}
-
-body .book .book-body{
-    font-family: Arial,sans-serif;
-    line-height: 1.38;
 }
 
 .unic-logo {
@@ -47,4 +33,12 @@ body .book .book-body{
     float:right;
     padding-left: 20px;
     max-width: 33%;
+}
+
+.summary > .chapter > .articles {
+    display: none;
+}
+
+.summary > .chapter.active > .articles, .summary > .chapter.unic-active > .articles {
+    display: block;
 }
