@@ -32,6 +32,7 @@
 .book-body .chapterlogo {
     float:right;
     padding-left: 20px;
+    max-width: 33%;
 }
 
 .summary > .chapter > .articles {
