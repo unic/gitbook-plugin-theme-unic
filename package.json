@@ -1,7 +1,7 @@
 {
-  "name": "gitbook-plugin-unictheme",
+  "name": "gitbook-plugin-theme-unic",
   "description": "Gitbook plugin for Unic css",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "gitbook": "*"
   }
