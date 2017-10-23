@@ -1,48 +1,9 @@
 /**  
- * Copyright [YEAR] Unic AG
+ * Copyright 2016 Unic AG
  */
  
-.book .book-summary ul.summary li > a:hover {
-    color: #A4C400 ;
-}
-
-.book .book-summary ul.summary li.active > a {
-    color: #28aaff;
-}
-
-.book .book-summary {
-    background-color: white;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal h1, .book .book-body .page-wrapper .page-inner section.normal h2, .book .book-body .page-wrapper .page-inner section.normal h3, .book .book-body .page-wrapper .page-inner section.normal h4, .book .book-body .page-wrapper .page-inner section.normal h5, .book .book-body .page-wrapper .page-inner section.normal h6  {
-    font-family: Georgia,serif;
-    font-weight: normal;
-    border-bottom: none;
-}
-
-.unic-logo {
-    width: 90px;
-    margin-right: 30px;
-    margin-left: 45px;
-    float: right;
-
-}
-
-
-.unic-logo img {
-    width: 100%;
-}
-
 .book-body .chapterlogo {
     float:right;
     padding-left: 20px;
     max-width: 33%;
-}
-
-.summary > .chapter > .articles {
-    display: none;
-}
-
-.summary > .chapter.active > .articles, .summary > .chapter.unic-active > .articles {
-    display: block;
 }
